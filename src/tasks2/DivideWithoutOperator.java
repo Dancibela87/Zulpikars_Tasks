@@ -12,7 +12,7 @@ public class DivideWithoutOperator {
             num1 -= num2;
             result++;
         }
-        System.out.println(result + "."+num1);
+        System.out.println(result + "." + num1);
 
 
     }

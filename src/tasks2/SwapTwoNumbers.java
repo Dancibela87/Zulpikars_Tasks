@@ -9,9 +9,9 @@ public class SwapTwoNumbers {
 
     public static void swap(int n1, int n2){
 
-        int n3 = n1 + n2;
-        n2 = n3 - n2;
-        n1 = n3 - n1;
+        n2 = n1 + n2;//30
+        n1= n2 - n1;//20
+        n2 = n2 - n1;//10
 
         System.out.println("num1 = " + n1 + " num2 = "+ n2);
 
